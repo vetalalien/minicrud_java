@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/product")
+@RequestMapping("/v1/user")
 @Slf4j
 public class PersonController extends CrudController<Person> implements ProductApi { //смысл апишек, что они являются фейн-клиентами, вызываемыми из другого сервиса
     //ниже есть метод /filtered, который не помещён в ProductApi, поскольку он не требуется для других сервисов

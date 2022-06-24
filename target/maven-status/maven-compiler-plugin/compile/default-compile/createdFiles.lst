@@ -20,7 +20,6 @@ com/vetalalien/miniservice/dto/Create.class
 com/vetalalien/miniservice/dto/PaginationDto.class
 com/vetalalien/miniservice/validator/EnumWithIdValid.class
 com/vetalalien/miniservice/service/PersonMapperSelmaGeneratedClass.class
-com/vetalalien/miniservice/dto/ProductStatus.class
 com/vetalalien/miniservice/repository/filter/ConditionRelation.class
 com/vetalalien/miniservice/dto/CommonCountFilterDto.class
 com/vetalalien/miniservice/exception/NotImplementedException.class
@@ -49,7 +48,6 @@ com/vetalalien/miniservice/service/CrudApiInterface.class
 com/vetalalien/miniservice/repository/filter/ConditionOperation.class
 com/vetalalien/miniservice/dto/Update.class
 com/vetalalien/miniservice/controllers/ReadResource.class
-com/vetalalien/miniservice/dto/ProductType.class
 com/vetalalien/miniservice/dto/Dto.class
 com/vetalalien/miniservice/exception/dto/Notification.class
 com/vetalalien/miniservice/service/ProductServiceWithRepository.class

@@ -8,7 +8,6 @@
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/Person.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/PaginationDto.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/LongIdDto.java
-/home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/ProductType.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/controllers/CrudController.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/EnumUtils.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/controllers/ReadResource.java
@@ -41,7 +40,6 @@
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/exception/NotFoundException.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/Create.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/repository/filter/ConditionOperation.java
-/home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/ProductStatus.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/CommonCountFilterDto.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/validator/EnumWithIdValid.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/service/PersonMapper.java
