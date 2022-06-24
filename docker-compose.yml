@@ -17,6 +17,7 @@ services:
             - '8051:8000'
         environment:
             DB_DRIVER: org.postgresql.Driver
+            DB_DIALECT: org.hibernate.dialect.PostgreSQL94Dialect
             DB_URL: jdbc:postgresql://postgres-db:5432/minicrud_db?autoReconnect=true
             DB_USERNAME: minicrud
             DB_PASSWORD: minicrud
