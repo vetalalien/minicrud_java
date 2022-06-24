@@ -1,10 +1,10 @@
 //TODO: Продумать первичное развёртывание приложения в части создания таблицы person в БД
 //TODO для этого можно использовать liquibase (см. пример в product-service):
-1. добавить в pom.xml:
+1. (DONE) добавить в pom.xml:
     <dependency>
       <groupId>org.liquibase</groupId>
       <artifactId>liquibase-core</artifactId>
     </dependency>
-2. В ресурсы проекта добавить папку db.changelog
-3. в папку db.changelog добавить master.xml и папки с миграциями - надо разобраться, как
+2. (DONE) В ресурсы проекта добавить папку db/changelog
+3. (DONE) в папку db.changelog добавить master.xml и папки с миграциями - надо разобраться, как
 со всем этим работать.

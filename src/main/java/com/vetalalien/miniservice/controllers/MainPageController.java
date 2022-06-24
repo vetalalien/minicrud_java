@@ -11,7 +11,7 @@ public class MainPageController {
         return ResponseEntity.ok(
       "<h2>"
 
-        + "Hello, Otus World!"
+        + "Hello, Otus World!!!"
         + "</h2>"
         + "<p><ul>"
         + "<li>Для создания пользователя используйте POST /v1/user</li>"

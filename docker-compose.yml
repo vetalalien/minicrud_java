@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+    postgres-db:
+        image: postgres:9.4
+        container_name: minicrud_postgres
+        ports:
+            - '8058:5432'
+        environment:
+            POSTGRES_USER: minicrud
+            POSTGRES_PASSWORD: minicrud
+            POSTGRES_DB: minicrud_db
+    minicrud:
+        image: vetalalien/minicrud:v1
+        container_name: minicrud_java
+        ports:
+            - '8051:8000'
+        environment:
+            DB_DRIVER: org.postgresql.Driver
+            DB_URL: jdbc:postgresql://postgres-db:5432/minicrud_db?autoReconnect=true
+            DB_USERNAME: minicrud
+            DB_PASSWORD: minicrud
+        depends_on:
+            - 'postgres-db'
+            
