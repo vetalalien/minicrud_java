@@ -32,13 +32,16 @@ com/vetalalien/miniservice/controllers/HealthController.class
 com/vetalalien/miniservice/dto/InterestCorrectionMethod.class
 com/vetalalien/miniservice/dto/EnumUtils.class
 com/vetalalien/miniservice/controllers/UpdateResource.class
+com/vetalalien/miniservice/controllers/CounterController.class
 com/vetalalien/miniservice/entity/LongIdEntity.class
+com/vetalalien/miniservice/dto/CounterDto.class
 com/vetalalien/miniservice/service/InterestCorrectionMapper.class
 com/vetalalien/miniservice/controllers/CreateResource.class
 com/vetalalien/miniservice/object/mapper/CustomObjectMapper.class
 com/vetalalien/miniservice/dto/NamedDto.class
 com/vetalalien/miniservice/init/RecursiveObjectInitiator.class
 com/vetalalien/miniservice/entity/NamedEntityWithLongId.class
+com/vetalalien/miniservice/metrics/MetricsConfiguration.class
 com/vetalalien/miniservice/controllers/CrudController.class
 com/vetalalien/miniservice/repository/filter/ConditionTarget.class
 com/vetalalien/miniservice/object/mapper/ObjectMapperWrapper.class

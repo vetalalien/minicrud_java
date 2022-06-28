@@ -1,6 +1,7 @@
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/service/PersonService.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/ExtendedNamedDto.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/controllers/UpdateResource.java
+/home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/CounterDto.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/controllers/CrudService.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/InterestCorrectionMethod.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/repository/filter/ConditionRelation.java
@@ -20,6 +21,7 @@
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/alternative/exception/BaseException.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/dto/CommonEntityFilterDto.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/MiniserviceApplication.java
+/home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/controllers/CounterController.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/utils/ReflectionUtils.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/service/InterestCorrectionMapper.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/repository/filter/Condition.java
@@ -49,6 +51,7 @@
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/controllers/PersonController.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/controllers/CrudResource.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/controllers/DeleteResource.java
+/home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/metrics/MetricsConfiguration.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/validator/EnumWithIdValidator.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/repository/BaseRepository.java
 /home/vetalalien/Work/IdeaProjects/Java/Study/minicrud_java/src/main/java/com/vetalalien/miniservice/entity/NamedEntityWithLongId.java

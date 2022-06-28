@@ -26,6 +26,7 @@
 		<hystrix-core.version>1.5.18</hystrix-core.version>
 		<reflections.version>0.9.10</reflections.version>
 		<selma.version>1.0</selma.version>
+		<micrometer.version>1.0.2</micrometer.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -121,6 +122,26 @@
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
 		</dependency>
+		<!-- for Prometheus  -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!-- micrometer -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-spring-legacy</artifactId>
+			<version>${micrometer.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
+			<version>${micrometer.version}</version>
+		</dependency>
+
+		<!-- for Prometheus -->
+
 
 		<!-- разобраться, надо ли то, что ниже -->
 		<dependency>

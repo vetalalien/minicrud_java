@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Map;
 
 @SpringBootApplication
+
 public class MiniserviceApplication {
 
 	public static void main(String[] args) {
