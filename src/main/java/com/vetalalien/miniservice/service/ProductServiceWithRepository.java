@@ -89,5 +89,10 @@ public class ProductServiceWithRepository extends AbstractCrudService<Person, Pe
         return dtos;
     }
 
+    //TODO: Change PersonEntity to Person (for the sake of depending excluding)
+    @Override
+    public PersonEntity findMyFirst() {
+        return personRepository.findMyFirst();
+    }
 }
 

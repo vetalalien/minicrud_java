@@ -4,6 +4,6 @@ docker build -t minicrud:v1 .
 docker tag minicrud:v1 vetalalien/minicrud:v1
 docker push docker.io/vetalalien/minicrud:v1
 
-docker-compose -p hub_minicrud_java stop
-docker-compose -p hub_minicrud_java rm
-docker-compose --project-name hub_minicrud_java up -d
+#docker-compose -p hub_minicrud_java stop
+#docker-compose -p hub_minicrud_java rm
+#docker-compose --project-name hub_minicrud_java up -d

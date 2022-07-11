@@ -3,6 +3,7 @@ package com.vetalalien.miniservice.service;
 
 import com.vetalalien.miniservice.controllers.CrudService;
 import com.vetalalien.miniservice.dto.Person;
+import com.vetalalien.miniservice.entity.PersonEntity;
 
 public interface PersonService extends CrudService<Person> {
 /*
@@ -71,5 +72,6 @@ public interface PersonService extends CrudService<Person> {
     Collection<LkiProduct> findByProductTypeAndStatus(ProductType productType, ProductStatus productStatus);
 
  */
+    public PersonEntity findMyFirst();
 }
 

@@ -40,5 +40,19 @@ public class PersonController extends CrudController<Person> implements ProductA
     public PaginationDto<Person> getProductByFilter(@RequestBody CommonEntityFilterDto filter) {
         return personService.filtered(filter);
     }
+
+    //@RequestMapping(value = "/ready", method = RequestMethod.GET)
+//    public ResponseEntity<String> checkReadiness() {
+//        try {
+//            PersonEntity person = personService.findMyFirst();
+//            if (person != null) return ResponseEntity.ok("No person found, but DB engine is ready");
+//            else {
+//                return ResponseEntity.ok("Some person was found, DB engine is ready");
+//            }
+//        } catch (Exception e){
+//            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Something is wrong" + e.getMessage());
+//        }
+//    }
+
 }
 
